@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,minimal-ui"><title>Document</title><link href="css/app.95a7de12.css" rel="preload" as="style"><link href="css/chunk-vendors.eac913bd.css" rel="preload" as="style"><link href="js/app.5fd0602a.js" rel="preload" as="script"><link href="js/chunk-vendors.d57693cf.js" rel="preload" as="script"><link href="css/chunk-vendors.eac913bd.css" rel="stylesheet"><link href="css/app.95a7de12.css" rel="stylesheet"></head><body><div id="loading"><div class="spinner"><div class="dot1"></div><div class="dot2"></div></div><style>body{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+      #loading {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      .spinner {
+        margin: 100px auto;
+        width: 90px;
+        height: 90px;
+        position: relative;
+        text-align: center;
+
+        -webkit-animation: rotate 2.0s infinite linear;
+        animation: rotate 2.0s infinite linear;
+      }
+
+      .dot1,
+      .dot2 {
+        width: 60%;
+        height: 60%;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        background-color: pink;
+        border-radius: 100%;
+        -webkit-animation: bounce 2.0s infinite ease-in-out;
+        animation: bounce 2.0s infinite ease-in-out;
+      }
+
+      .dot2 {
+        top: auto;
+        bottom: 0px;
+        -webkit-animation-delay: -1.0s;
+        animation-delay: -1.0s;
+      }
+
+      @-webkit-keyframes rotate {
+        100% {
+          -webkit-transform: rotate(360deg)
+        }
+      }
+
+      @keyframes rotate {
+        100% {
+          transform: rotate(360deg);
+          -webkit-transform: rotate(360deg)
+        }
+      }
+
+      @-webkit-keyframes bounce {
+
+        0%,
+        100% {
+          -webkit-transform: scale(0.0)
+        }
+
+        50% {
+          -webkit-transform: scale(1.0)
+        }
+      }
+
+      @keyframes bounce {
+
+        0%,
+        100% {
+          transform: scale(0.0);
+          -webkit-transform: scale(0.0);
+        }
+
+        50% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+        }
+      }</style></div><div id="app"></div><script src="js/chunk-vendors.d57693cf.js"></script><script src="js/app.5fd0602a.js"></script></body></html>
