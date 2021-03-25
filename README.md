@@ -8,7 +8,7 @@
 
 ### 示例
 
-http://huntingshadow.gitee.io/shop/#/
+https://huntingshadow.github.io/shop/#/
 
 #### 软件架构
 
